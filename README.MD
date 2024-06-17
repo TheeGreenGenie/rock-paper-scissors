@@ -1,1 +1,1 @@
-This is a basic rock paper scissors game made using javascript. Simply click the button to play it. Enjoy!
+This is a basic rock paper scissors game made using javascript and just a tiny bit of html. Simply click the button to play it. Enjoy!
