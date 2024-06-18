@@ -11,7 +11,7 @@ function getComputerChoice() {
 function getHumanChoice() {
     let choice = prompt("Enter rock, paper, or scissors").toLowerCase();
     while (CHOICES.indexOf(choice) == -1) {
-        choice = prompt("Please enter a valid input")
+        choice = prompt("Please enter a valid input").toLowerCase();
     };
     return choice;
 }
