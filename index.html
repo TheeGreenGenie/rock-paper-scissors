@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button onclick="playGame()">Click me to play rock paper Scissors!</button>
+    <div>
+        <button class="rock">Rock</button>
+        <button class="paper">Paper</button> 
+        <button class="scissors">Scissors</button>
+    </div>
+    <div class="scoreboard">
+        <h3>Scoreboard</h3>
+        <div class="scores">
+            <p id="human">Human Score: 0</p>
+            <p id ="computer">Computer Score: 0</p>
+        </div>
+        <div class="display">
+            <p id="display"></p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
